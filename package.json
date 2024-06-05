@@ -1,0 +1,24 @@
+{
+  "name": "vitest-db-testing-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotvallidev/vitest-db-testing-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rotvallidev/vitest-db-testing-example/issues"
+  },
+  "homepage": "https://github.com/rotvallidev/vitest-db-testing-example#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
