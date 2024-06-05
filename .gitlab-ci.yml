@@ -1,0 +1,21 @@
+stages:
+  - test
+
+test:
+  image: node:20
+  services:
+    - name: postgres:16.3
+      alias: database
+  variables:
+    POSTGRES_USER: vitest
+    POSTGRES_PASSWORD: vitest
+    POSTGRES_DB: vitest
+  stage: test
+  before_script:
+  - export POSTGRES_HOST=database
+  - export POSTGRES_USER=vitest
+  - export POSTGRES_PASSWORD=vitest
+  - export POSTGRES_DATABASE=vitest
+  script:
+    - npm ci
+    - npm run test
