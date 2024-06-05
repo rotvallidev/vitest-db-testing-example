@@ -18,7 +18,11 @@
   "homepage": "https://github.com/rotvallidev/vitest-db-testing-example#readme",
   "devDependencies": {
     "@types/node": "^20.14.2",
+    "@types/pg": "^8.11.6",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "pg": "^8.12.0"
   }
 }
