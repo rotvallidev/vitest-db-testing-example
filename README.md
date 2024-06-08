@@ -1,4 +1,6 @@
-# vitest-db-testing-example
+# Vitest db testing example
+
+Article: [https://rotvalli.dev/articles/testing-with-postgres-template-and-vitest](https://rotvalli.dev/articles/testing-with-postgres-template-and-vitest)
 
 ## How to Run Tests
 
